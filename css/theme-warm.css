@@ -1,0 +1,67 @@
+/* AK.PILOT — тема «теплее и матовее» (подключается, если THEME = "warm" в tools/build.py).
+   1) янтарь — цвет человека: кнопки действия;
+   2) бирюза сдвинута к мху;
+   3) без неонового свечения.
+   Откат: THEME = "" в tools/build.py и пересборка. */
+
+:root[data-theme="warm"] {
+  --accent: #7fbab4;          /* синий из документов Концерна: светлый тон #4e4f51 */
+  --accent-2: #b4e0da;
+  --amber: #e3b866;
+  --amber-2: #f0cd8a;
+  --amber-ink: #2b1e06;
+}
+
+/* 1. действия человека — янтарём */
+:root[data-theme="warm"] .btn--primary { background: var(--amber); color: var(--amber-ink); }
+:root[data-theme="warm"] .btn--primary:hover { background: var(--amber-2); }
+:root[data-theme="warm"] .btn--ghost:hover { border-color: var(--amber); color: var(--amber-2); }
+:root[data-theme="warm"] .about__cta,
+:root[data-theme="warm"] .jfollow__btn { color: var(--amber-2); }
+:root[data-theme="warm"] .jfollow__btn { background: rgba(227, 184, 102, .12); }
+:root[data-theme="warm"] .jfollow:hover { border-color: var(--amber); }
+:root[data-theme="warm"] .vista .eyebrow { color: var(--amber-2); }
+:root[data-theme="warm"] .consent input { accent-color: var(--amber); }
+
+/* 3. без неонового свечения: матовые линии и точки */
+:root[data-theme="warm"] .hero__key.is-scramble,
+:root[data-theme="warm"] .journal__res.is-scramble,
+:root[data-theme="warm"] .journal__row.is-hero .journal__res,
+:root[data-theme="warm"] .rules__num,
+:root[data-theme="warm"] .metric__col dd.is-scramble,
+:root[data-theme="warm"] .card__metric dd.is-scramble { text-shadow: none; }
+:root[data-theme="warm"] .jmini i.is-on,
+:root[data-theme="warm"] .jscale__bar i.is-on { box-shadow: none; }
+:root[data-theme="warm"] .jnode i { box-shadow: 0 0 0 3px rgba(33, 34, 36, .9); }
+:root[data-theme="warm"] .jnode.is-measured i { box-shadow: 0 0 0 3px rgba(33, 34, 36, .9); }
+:root[data-theme="warm"] .lmap__links i::after { box-shadow: none; }
+:root[data-theme="warm"] .page-hero__logo { filter: none; }
+:root[data-theme="warm"] .journal__live::before { box-shadow: none; }
+:root[data-theme="warm"] .chip--status::before { box-shadow: none; }
+
+/* ---------- спокойнее для глаз: меньше свечения и бесконечных миганий ---------- */
+/* фоновые картинки тише */
+:root[data-theme="warm"] .hero-bg img { opacity: .36; }
+@media (max-width: 900px) { :root[data-theme="warm"] .hero-bg img { opacity: .24; } }
+:root[data-theme="warm"] .sec-bg img { opacity: .18; }
+:root[data-theme="warm"] .sec-bg--systems img { opacity: .12; }
+/* курсор мигает 3 раза и замирает */
+:root[data-theme="warm"] .caret::after { animation: blink 1s steps(1) 3; }
+/* пульсирующие точки — статичные */
+:root[data-theme="warm"] .journal__live::before,
+:root[data-theme="warm"] .metric__col .is-pending::before { animation: none; }
+/* кольцо-«пинг» у измеренной точки на луче — один раз */
+:root[data-theme="warm"] .jnode.is-measured i::after { animation-iteration-count: 1; }
+/* импульсы на связях Coach — убраны */
+:root[data-theme="warm"] .lmap__links i::after { display: none; }
+
+/* ---------- «Что такое АКС»: как остальные блоки, но метки систем без бирюзовых рамок ---------- */
+:root[data-theme="warm"] #lines .ltag--link { border-color: var(--line-2); background: rgba(255, 255, 255, .02); color: var(--text); }
+:root[data-theme="warm"] #lines .ltag--link i { color: var(--accent); }
+:root[data-theme="warm"] #lines .ltag__arr { color: var(--dim); }
+:root[data-theme="warm"] #lines .ltag--link:hover { border-color: var(--accent); background: rgba(127, 186, 180, .08); color: var(--accent-2); }
+:root[data-theme="warm"] #lines .ltag--link:hover .ltag__arr { color: var(--accent); }
+:root[data-theme="warm"] #lines .cdo li { border-left-color: rgba(127, 186, 180, .35); }
+:root[data-theme="warm"] #lines .lmap__links i { background: linear-gradient(var(--line-2), rgba(127, 186, 180, .35)); }
+:root[data-theme="warm"] #lines .lcoach { border-color: rgba(127, 186, 180, .22); }
+:root[data-theme="warm"] #lines .lcol__bg img { opacity: .26; filter: saturate(.7); }

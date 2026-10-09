@@ -1,0 +1,30 @@
+# AK.PILOT (akai.systems)
+
+> Сайт — akai.systems, AK.PILOT: площадка разработки и испытаний прототипов AKCore™ для аудитории РФ.
+
+AK.PILOT — испытательная площадка инженерного концерна АКСИСТЕМС (www.aksystems.co). Здесь Концерн проверяет прототипы агентных когнитивных систем (АКС) AKCore™ AI — ИИ-агентов для производства, бизнеса и личного использования, которые решают прикладные задачи и раскрывают скрытые резервы в доменных областях присутствия Концерна.
+
+- Оператор: ООО «Аксистемс».
+- Класс: агентные когнитивные системы (АКС; AXS, Agentic Execution Systems) по стандарту SDS-GEN-AXS-26.01; уровни полномочий A0–A3.
+- Линии и системы: AKCore™ Boost (Trading, Офис, Качество, Финансы, Персонал, Развитие, Бренд, Smart Routing) · AKCore™ Wellness (Фитнес, Восстановление) · межлинейная система AKCore™ Coach · AKCore™ Industrial — в доработке.
+- Статусы: Прототип · Пилот · Готов к рынку (→ AKCore.systems).
+- Канонические определения: «агентная когнитивная система (АКС)»: ИИ-агенты, выполняющие задачи в процессе заказчика в пределах полномочий, утверждённых владельцем процесса; «заявленная характеристика»: главная метрика системы — ориентир рынка и наше измеренное значение с объёмом, периодом и датой.
+
+## Системы
+- [K1 · AKCore™ Coach: цифровой посредник между человеком и ИИ](https://akai.systems/sistemy/k1-coach.html): уровень A0, статус Прототип
+- [C1 · AKCore™ Boost · Trading: от тендера до ТКП](https://akai.systems/sistemy/c1-trading.html): уровень A1, статус Прототип
+- [C3 · AKCore™ Boost · Офис: документы, письма, обращения](https://akai.systems/sistemy/c3-office.html): уровень A1, статус Прототип
+- [C4 · AKCore™ Boost · Качество: процедуры и записи](https://akai.systems/sistemy/c4-quality.html): уровень A0, статус Прототип
+- [C5 · AKCore™ Boost · Финансы: учёт и экономика сделок](https://akai.systems/sistemy/c5-finance.html): уровень A1, статус Прототип
+- [C6 · AKCore™ Boost · Персонал: адаптация и развитие](https://akai.systems/sistemy/c6-people.html): уровень A1, статус Прототип
+- [C7 · AKCore™ Boost · Развитие: рынок и стратегия](https://akai.systems/sistemy/c7-growth.html): уровень A0, статус Прототип
+- [C8 · AKCore™ Boost · Бренд: дизайн и контент](https://akai.systems/sistemy/c8-brand.html): уровень A1, статус Прототип
+- [C9 · AKCore™ Boost · Smart Routing: управляемый вход в инфраструктуру компании](https://akai.systems/sistemy/c9-routing.html): уровень A0, статус Прототип
+- [E1 · AKCore™ Wellness · Фитнес: умные тренировки](https://akai.systems/sistemy/e1-fitness.html): уровень A1, статус Прототип
+- [E2 · AKCore™ Wellness · Восстановление: упражнения на оборудовании AKSense™](https://akai.systems/sistemy/e2-recovery.html): уровень A1, статус Прототип
+
+## Страницы
+- [Как устроены АКС](https://akai.systems/kak-ustroeno.html)
+- [Стать пилотным заказчиком](https://akai.systems/pilot.html)
+- [Словарь терминов](https://akai.systems/slovar.html)
+- [О площадке и контакты](https://akai.systems/o-ploshchadke.html)

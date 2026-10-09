@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru" class="no-js" data-theme="warm">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как устроены агентные когнитивные системы AKCore™ — AK.PILOT</title>
+<meta name="description" content="Агентные когнитивные системы (АКС) — класс систем, разрабатываемых АКСИСТЕМС, в которых ИИ-агенты выполняют отдельные операции, задачи или целые функции в процессах заказчика. Агенты читают и анализируют данные, готовят решения и выполняют действия под контролем человека. Все системы AK.PILOT построены на основе стандартного базового проекта.">
+<link rel="canonical" href="https://akai.systems/kak-ustroeno.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AK.PILOT">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Как устроены агентные когнитивные системы AKCore™ — AK.PILOT">
+<meta property="og:description" content="Агентные когнитивные системы (АКС) — класс систем, разрабатываемых АКСИСТЕМС, в которых ИИ-агенты выполняют отдельные операции, задачи или целые функции в процессах заказчика. Агенты читают и анализируют данные, готовят решения и выполняют действия под контролем человека. Все системы AK.PILOT построены на основе стандартного базового проекта.">
+<meta property="og:url" content="https://akai.systems/kak-ustroeno.html">
+<meta property="og:image" content="https://akai.systems/assets/img/mark-teal.png">
+<meta name="theme-color" content="#08121a">
+<link rel="icon" type="image/png" href="assets/img/favicon.png?v=c9770dd8">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png?v=35685fc7">
+<link rel="preload" href="assets/fonts/montserrat-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/base.css?v=2461049d">
+<link rel="stylesheet" href="css/site.css?v=77f49a74">
+<link rel="stylesheet" href="css/theme-warm.css?v=3b9a7ec0">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://akai.systems/#org", "name": "ООО «Аксистемс»", "alternateName": "АКСИСТЕМС", "url": "https://akai.systems/", "email": "info@aksystems.org", "logo": "https://akai.systems/assets/img/mark-teal.png", "telephone": ["+7 843 717 77 17", "+971 58 162 51 32"], "sameAs": ["https://t.me/infoAKCO", "https://t.me/AKportalAKCO", "https://www.aksystems.co"]}, {"@type": "WebSite", "@id": "https://akai.systems/#site", "url": "https://akai.systems/", "name": "AK.PILOT", "inLanguage": "ru", "description": "akai.systems, AK.PILOT: площадка разработки и испытаний прототипов AKCore™ для аудитории РФ.", "publisher": {"@id": "https://akai.systems/#org"}, "about": {"@type": "Thing", "name": "Агентные когнитивные системы (АКС)", "description": "«агентная когнитивная система (АКС)»: ИИ-агенты, выполняющие задачи в процессе заказчика в пределах полномочий, утверждённых владельцем процесса; «заявленная характеристика»: главная метрика системы — ориентир рынка и наше измеренное значение с объёмом, периодом и датой."}, "keywords": "агентные когнитивные системы (АКС; AXS, Agentic Execution Systems) по стандарту SDS-GEN-AXS-26.01; уровни полномочий A0–A3.; AKCore™ Boost (Trading, Офис, Качество, Финансы, Персонал, Развитие, Бренд, Smart Routing) · AKCore™ Wellness (Фитнес, Восстановление) · межлинейная система AKCore™ Coach · AKCore™ Industrial — в доработке.; Прототип · Пилот · Готов к рынку (→ AKCore.systems)."}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="AK.PILOT — на главную">
+      <img src="assets/img/mark-teal.png?v=06d9d9a6" alt="" width="34" height="34">
+      <span><span class="brand__name">AK<span>.</span>PILOT</span><span class="brand__by">АКСИСТЕМС · akai.systems</span></span>
+    </a>
+    <nav class="nav" aria-label="Основное меню"><a href="index.html#systems">Системы</a><a href="kak-ustroeno.html" aria-current="page">Как устроено</a><a href="pilot.html">Пилот</a><a href="slovar.html">Словарь</a><a href="o-ploshchadke.html">О площадке</a></nav>
+    <a class="btn btn--primary" href="pilot.html#form">Стать пилотным заказчиком</a>
+    <button class="burger" type="button" aria-label="Меню" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<main id="main">
+
+<div class="hero-bg hero-bg--sys hero-bg--how" aria-hidden="true"><img src="assets/img/nature/how-hero.webp?v=7adba904" alt="" decoding="async" fetchpriority="low"></div>
+<canvas class="bg-core" id="hero-core" data-dim="0.55" aria-hidden="true"></canvas>
+<section class="page-hero how-hero">
+  <div class="wrap page-hero__split">
+    <div>
+      <span class="eyebrow reveal">Как устроено</span>
+      <h1 class="reveal" style="--d:120ms">Агентные когнитивные системы <span class="hl-amber">(АКС)</span></h1>
+      <p class="lead reveal is-clamp" style="--d:220ms">Агентные когнитивные системы <span class="nowrap">(<span class="term" tabindex="0">АКС<span class="term__tip" role="tooltip"><b>Агентные когнитивные системы (АКС)</b>Класс систем AKCore⁠<span class="tm">™</span>, в которых ИИ‑агенты понимают задачу и исполняют её в процессах заказчика в пределах утверждённых полномочий. В международной версии — AXS, Agentic Execution Systems. Стандарт класса — SDS-GEN-AXS-26.01.<a href="slovar.html#agentnye-kognitivnye-sistemy-aks">Словарь →</a></span></span>)</span> — класс систем, разрабатываемых АКСИСТЕМС, в которых ИИ‑агенты выполняют отдельные операции, задачи или целые функции в процессах заказчика. Агенты читают и анализируют данные, готовят решения и выполняют действия <span class="hl-h">под контролем человека</span>. Все системы AK.PILOT построены на основе стандартного базового проекта.</p>
+      <button class="more-btn" type="button">Далее…</button>
+    </div>
+    <div class="core-spot how-hero__core" data-core="lg" data-scale="0.92" data-mscale="1.55" aria-hidden="true"></div>
+  </div>
+  <script src="js/core3d.js?v=585a97d9" defer></script>
+</section>
+<section class="section" id="lines">
+  <div class="wrap">
+    <div class="section__head"><div><span class="eyebrow">Три линейки</span><h2>Industrial, Boost, Wellness</h2></div></div>
+    <div class="lpans"><div class="lpan is-wip" tabindex="0"><div class="lpan__bg" aria-hidden="true"><img src="assets/img/nature/line-industrial.webp?v=2b0af7b9" alt="" loading="lazy" decoding="async"></div><div class="lpan__rest"><small>AKCore⁠<span class="tm">™</span></small><h3>Industrial</h3><span class="lpan__count">в доработке</span></div><div class="lpan__open"><span class="eyebrow">AKCore⁠<span class="tm">™</span> Industrial · в доработке</span><h3>Industrial</h3><p>Промышленные АКС для производства и инжиниринга</p><div class="lpan__tags"><span>диагностика оборудования</span><span>технологические режимы</span><span>измерения</span><span>цифровые двойники</span><span>управление проектами</span><span>проектирование и закупки</span></div></div></div><div class="lpan" tabindex="0"><div class="lpan__bg" aria-hidden="true"><img src="assets/img/nature/lpan-boost.webp?v=5cb2a739" alt="" loading="lazy" decoding="async"></div><div class="lpan__rest"><small>AKCore⁠<span class="tm">™</span></small><h3>Boost</h3><span class="lpan__count">8 систем</span></div><div class="lpan__open"><span class="eyebrow">AKCore⁠<span class="tm">™</span> Boost</span><h3>Boost</h3><p>Бизнес-АКС для торговых, сервисных и производственных компаний</p><div class="lpan__sys"><a href="sistemy/c1-trading.html"><b>C1</b>Trading<i aria-hidden="true">→</i></a><a href="sistemy/c3-office.html"><b>C3</b>Офис<i aria-hidden="true">→</i></a><a href="sistemy/c4-quality.html"><b>C4</b>Качество<i aria-hidden="true">→</i></a><a href="sistemy/c5-finance.html"><b>C5</b>Финансы<i aria-hidden="true">→</i></a><a href="sistemy/c6-people.html"><b>C6</b>Персонал<i aria-hidden="true">→</i></a><a href="sistemy/c7-growth.html"><b>C7</b>Развитие<i aria-hidden="true">→</i></a><a href="sistemy/c8-brand.html"><b>C8</b>Бренд<i aria-hidden="true">→</i></a><a href="sistemy/c9-routing.html"><b>C9</b>Smart Routing<i aria-hidden="true">→</i></a></div></div></div><div class="lpan" tabindex="0"><div class="lpan__bg" aria-hidden="true"><img src="assets/img/nature/line-wellness.webp?v=faa3d272" alt="" loading="lazy" decoding="async"></div><div class="lpan__rest"><small>AKCore⁠<span class="tm">™</span></small><h3>Wellness</h3><span class="lpan__count">2 системы</span></div><div class="lpan__open"><span class="eyebrow">AKCore⁠<span class="tm">™</span> Wellness</span><h3>Wellness</h3><p>Персональные ИИ-помощники для тренировок и восстановительных упражнений</p><div class="lpan__sys"><a href="sistemy/e1-fitness.html"><b>E1</b>Фитнес<i aria-hidden="true">→</i></a><a href="sistemy/e2-recovery.html"><b>E2</b>Восстановление<i aria-hidden="true">→</i></a></div></div></div></div>
+    <a class="lpan-coach" href="sistemy/k1-coach.html"><span class="eyebrow">Межлинейная система · для всех трёх линий</span><b>AKCore⁠<span class="tm">™</span> Coach</b><span>Универсальный инструмент, который служит связующим звеном между <span class="hl-h">человеком</span> и <span class=hl-ai>ИИ</span> для всех трёх линий</span><i aria-hidden="true">→</i></a>
+  </div>
+</section>
+<section class="section" id="cycle">
+  <div class="wrap">
+    <div class="section__head"><div><span class="eyebrow">Цикл работы агента</span><h2>Пять этапов каждого сценария</h2></div>
+      <p class="lead">Каждый сценарий работы АКС представляет собой цикл, состоящий из пяти этапов.</p></div>
+    <div class="cycle-wrap"><div class="ring" aria-hidden="true"><img class="ring__bg" src="assets/img/nature/cycle-ring.webp?v=06386783" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 400 400">
+        <circle class="ring__track" cx="200" cy="200" r="150"/>
+        <circle class="ring__arc" cx="200" cy="200" r="150" pathLength="100"/><g class="ring__node" data-i="0"><circle cx="200.0" cy="50.0" r="22"/><text x="200.0" y="50.0">01</text></g><g class="ring__node" data-i="1"><circle cx="342.7" cy="153.6" r="22"/><text x="342.7" y="153.6">02</text></g><g class="ring__node" data-i="2"><circle cx="288.2" cy="321.4" r="22"/><text x="288.2" y="321.4">03</text></g><g class="ring__node has-h" data-i="3"><circle cx="111.8" cy="321.4" r="22"/><text x="111.8" y="321.4">04</text></g><g class="ring__node has-h" data-i="4"><circle cx="57.3" cy="153.6" r="22"/><text x="57.3" y="153.6">05</text></g></svg>
+        <div class="ring__mid"><small>этап <b class="ring__n">01</b> / 05</small><span class="ring__t">Восприятие и поиск</span></div></div><ol class="csteps"><li class="cstep is-on" data-i="0"><span class="cstep__n">01</span><div><h3>Восприятие и поиск</h3><p>Агент получает входные данные и нужный для работы контекст.</p></div></li><li class="cstep" data-i="1"><span class="cstep__n">02</span><div><h3>Планирование и рассуждение</h3><p>Агент разбивает цель на шаги и определяет порядок действий.</p></div></li><li class="cstep" data-i="2"><span class="cstep__n">03</span><div><h3>Исполнение</h3><p>Агент выполняет интеллектуальную работу, используя память, знания и инструменты.</p></div></li><li class="cstep has-h" data-i="3"><span class="cstep__n">04</span><div><h3>Взаимодействие со средой</h3><p>Агент действует в системах и общается <span class="hl-h">с людьми</span> за пределами своей системы — только в пределах своих полномочий.</p></div></li><li class="cstep has-h" data-i="4"><span class="cstep__n">05</span><div><h3>Проверка, обучение и адаптация</h3><p>Результат проходит проверку. Исправления <span class="hl-h">специалистов</span> учитываются при проверке следующих версий.</p></div></li></ol></div>
+  </div>
+</section>
+<section class="section has-photo" id="levels">
+  <div class="sec-photo sec-photo--levels" aria-hidden="true"><img src="assets/img/nature/levels-steps.webp?v=a2f4b616" alt="" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <div class="section__head"><div><span class="eyebrow">Уровни полномочий</span><h2>От советника до делегированного процесса</h2></div>
+      <p class="lead">Новые полномочия система получает только после того, как подтвердила результат в пилоте.</p></div>
+    <div class="lstair"><div class="lstep" style="--k:0"><div class="lstep__in"><div class="level__code">A0</div><h3>Советник</h3><p>Готовит черновики, анализ и рекомендации. Действий в учётных системах не совершает.</p></div></div><div class="lstep" style="--k:1"><div class="lstep__in"><div class="level__code">A1</div><h3>Подтверждаемое действие</h3><p>Выполняет действия, но каждое из них <span class="hl-h">человек подтверждает</span> заранее.</p></div></div><div class="lstep" style="--k:2"><div class="lstep__in"><div class="level__code">A2</div><h3>Ограниченная самостоятельность</h3><p>Сам планирует шаги в пределах набора инструментов, бюджета и лимита шагов. Действия с последствиями <span class="hl-h">подтверждает человек</span>.</p></div></div><div class="lstep" style="--k:3"><div class="lstep__in"><div class="level__code">A3</div><h3>Делегированный процесс</h3><p>Ведёт процесс целиком в пределах письменно делегированного лимита. <span class="hl-h">Человек контролирует</span> отклонения и выборочно проверяет работу.</p></div></div></div>
+    <div class="lscale" aria-hidden="true"><span>Действует человек</span><i></i><span>Действует агент</span></div>
+  </div>
+</section>
+<section class="section has-photo" id="stack">
+  <div class="sec-photo sec-photo--stack" aria-hidden="true"><img src="assets/img/nature/stack-plates.webp?v=38a446b6" alt="" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <div class="section__head"><div><span class="eyebrow">Технологический стек</span><h2>Общий базовый стек для всех систем</h2></div>
+      <p class="lead">Все системы AKCore⁠<span class="tm">™</span> построены на общем базовом стеке; в каждой системе меняется только предметная часть. Конкретные технологии выбираются на предпроектном обследовании, и любой компонент — модель, хранилище, платформу — можно заменить без перестройки системы.</p></div>
+    <div class="slayers"><div class="slayer is-open" tabindex="0"><div class="slayer__hd"><span class="slayer__n">01</span><b>Вход</b><small>Input</small><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Подключения к учётным системам с правами только на чтение. Документы разбиваются по смыслу и индексируются; поиск сочетает точное совпадение (номера, артикулы, стандарты) и поиск по смыслу. Внешние документы считаются недоверенным текстом: скрытые команды в них не исполняются.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">02</span><b>Рассуждение</b><small>Reasoning</small><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Известные шаги идут по заданному сценарию; <span class="term" tabindex="0">языковая модель<span class="term__tip" role="tooltip"><b>Большая языковая модель (LLM)</b>Модель ИИ, обученная на больших массивах текста; понимает и составляет тексты. В АКС это один из компонентов, а не вся система.<a href="slovar.html#bolshaya-yazykovaya-model-llm">Словарь →</a></span></span> планирует только там, где нужна адаптация. Мощная модель — для планирования, компактные — для извлечения и классификации, правила — для простых проверок. Каждое решение записывается: контекст, применённые правила, ход рассуждения, уверенность.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">03</span><b>Проверка</b><small>Validation</small><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Отдельный агент-контролёр со своей моделью и контекстом. Проверки входа, выхода и вызовов инструментов работают независимо друг от друга. Неоднозначный результат уходит <span class="hl-h">на просмотр человеку</span>, а не пропускается.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">04</span><b>Выход</b><small>Output</small><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Каждое действие относится к одному классу: <span class="hl-ai">«Сам»</span>, <span class="hl-h">«С подтверждением»</span> или <span class="hl-only">«Только человек»</span>. Права и лимиты проверяет программный код, а не текст инструкции. Перед подтверждением <span class="hl-h">человек видит</span> точное содержимое записи или письма; без ответа действие не выполняется. В системы управления производством агенты не пишут.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">05</span><b>Интерфейс</b><small>Interface</small><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Веб, корпоративный мессенджер, почта или встраивание в учётную систему: очередь подтверждений и карточки рекомендаций с источниками. Подключения к системам — по единому открытому протоколу для <span class="term" tabindex="0">ИИ‑агентов<span class="term__tip" role="tooltip"><b>ИИ‑агент</b>Программа, которая с помощью модели ИИ понимает задачу, планирует шаги и сама обращается к нужным системам и данным. В ГОСТ Р 71476-2024 (п. 3.1.1) — «агент ИИ»: объект, который воспринимает окружение, реагирует на него и действует для достижения целей.<a href="slovar.html#ii-agent">Словарь →</a></span></span> <span class="nowrap">(<span class="term" tabindex="0">MCP<span class="term__tip" role="tooltip"><b>Протокол MCP (Model Context Protocol)</b>Открытый протокол, по которому ИИ-ассистенты и агенты подключаются к внешним системам и данным.<a href="slovar.html#protokol-mcp-model-context-protocol">Словарь →</a></span></span>)</span>.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">06</span><b>Качество</b><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>Критерии и тестовый набор из данных заказчика фиксируются до разработки. Три рубежа приёмки: технический, эксплуатационный (30–90 дней в работе) и бизнес-эффект по заранее заявленной метрике. Журнал всех действий хранится отдельно и не может быть изменён агентами.</p></div></div><div class="slayer" tabindex="0"><div class="slayer__hd"><span class="slayer__n">07</span><b>Развёртывание</b><i class="slayer__ic" aria-hidden="true"></i></div><div class="slayer__bd"><p>По умолчанию — в контуре заказчика, на моделях с открытыми весами; внешние модели — только <span class="hl-h">по решению заказчика</span>. Возможны также частное облако или облако в РФ.</p></div></div></div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/img/mark-teal.png?v=06d9d9a6" alt="" width="34" height="34"><span><span class="brand__name">AK<span>.</span>PILOT</span><span class="brand__by">АКСИСТЕМС · akai.systems</span></span></a>
+        <p style="margin-top:18px;max-width:340px">akai.systems, AK.PILOT: площадка разработки и испытаний прототипов AKCore™ для аудитории РФ.</p>
+        <a class="footer__akcore" href="index.html#systems"><img src="assets/img/akcore/akcore-logo-white.svg?v=704200a1" alt="AKCore™" width="150" height="56"><span>Системы на испытаниях</span></a>
+      </div>
+      <div><h4>AKCore™ Boost</h4><ul><li><a href="sistemy/c1-trading.html">C1 · Trading</a></li><li><a href="sistemy/c3-office.html">C3 · Офис</a></li><li><a href="sistemy/c4-quality.html">C4 · Качество</a></li><li><a href="sistemy/c5-finance.html">C5 · Финансы</a></li><li><a href="sistemy/c6-people.html">C6 · Персонал</a></li><li><a href="sistemy/c7-growth.html">C7 · Развитие</a></li><li><a href="sistemy/c8-brand.html">C8 · Бренд</a></li><li><a href="sistemy/c9-routing.html">C9 · Smart Routing</a></li></ul></div>
+      <div><h4>Coach · Wellness</h4><ul><li><a href="sistemy/k1-coach.html">K1 · Coach</a></li><li><a href="sistemy/e1-fitness.html">E1 · Фитнес</a></li><li><a href="sistemy/e2-recovery.html">E2 · Восстановление</a></li></ul>
+        <h4 style="margin-top:28px">Площадка</h4><ul>
+        <li><a href="kak-ustroeno.html">Как устроены АКС</a></li><li><a href="pilot.html">Стать пилотным заказчиком</a></li>
+        <li><a href="slovar.html">Словарь терминов</a></li><li><a href="o-ploshchadke.html">О площадке</a></li></ul></div>
+      <div><h4>Контакты</h4><ul><li><small>Email</small><a href="mailto:info@aksystems.org" rel="noopener">info@aksystems.org</a></li><li><small>Telegram</small><a href="https://t.me/infoAKCO" rel="noopener">@infoAKCO</a></li><li><small>WhatsApp</small><a href="https://wa.me/971586007782" rel="noopener">+971 58 600 77 82</a></li><li><small>AK.PORTAL</small><a href="https://t.me/AKportalAKCO" rel="noopener">t.me/AKportalAKCO</a></li></ul></div>
+    </div>
+    <div class="footer__legal">
+      <p>Сайт akai.systems (AK.PILOT) ведёт ООО «Аксистемс», оно же является оператором персональных данных. Ориентиры рынка приводятся по открытым материалам производителей, со ссылкой и датой проверки; все упомянутые названия принадлежат их владельцам.</p>
+      <p>© 2026 ООО «Аксистемс» · AKCore™</p>
+    </div>
+  </div>
+</footer>
+<script src="js/config.js?v=84f34bd8"></script>
+<script src="js/main.js?v=b033bfa1"></script>
+<script src="js/cursor.js?v=a356afe9"></script>
+</body>
+</html>
